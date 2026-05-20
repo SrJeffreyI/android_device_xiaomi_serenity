@@ -1,0 +1,42 @@
+# Bluetooth
+persist.bluetooth.a2dp_offload.disabled=false
+ro.bluetooth.a2dp_offload.supported=true
+
+# Display
+debug.sf.enable_changezorder_flag=1
+
+# Radio
+persist.radio.multisim.config=dsds
+persist.vendor.radio.feature.bitmask=8
+persist.vendor.radio.phone_count=2
+
+# Miscellaneous
+persist.sys.wifi.reset.devpath=devices/platform/87000000.cpwcn-btwf/87000000.cpwcn-btwf:sprd-wlan
+persist.vendor.cam.ba.blur.version=1
+persist.vendor.cam.back.high.resolution.mode=1
+persist.vendor.cam.faceid.version=1
+persist.vendor.cam.front.high.resolution.mode=0
+persist.vendor.cam.hdr.select.num=8
+persist.vendor.cam.high.res.zsl=1
+persist.vendor.cam.icap.save.stat.num=6
+persist.vendor.cam.shot2shot.enable=1111
+persist.vendor.cam.xtm.buf.num=6
+persist.vendor.faceid.livenessgrade=2
+qemu.hw.mainkeys=0
+ro.odm.ab_ota_partitions=boot,dtbo,init_boot,l_agdsp,l_deltanv,l_fixnv1,l_fixnv2,l_gdsp,l_ldsp,l_modem,logo,mmcblk0boot1,odm,pm_sys,product,sdc,sml,system,system_dlkm,system_ext,teecfg,trustos,uboot,vbmeta,vbmeta_odm,vbmeta_product,vbmeta_system,vbmeta_system_ext,vbmeta_vendor,vendor,vendor_boot,vendor_dlkm
+ro.odm.oemcrypto.enabled=false
+ro.product.device_for_attestation=serenity
+ro.product.hardware=serenity
+ro.product.manufacturer_for_attestation=Xiaomi
+ro.product.property_source_order=odm,product,vendor,system_ext,system
+ro.recovery.ui.dropscreen=1
+ro.recovery.ui.margin_height=45
+ro.vendor.gnsschip=marlin3lite-Integ
+ro.vendor.identity.support=false
+ro.vendor.ifaa.support=false
+ro.vendor.soter.support=false
+ro.vendor.sp.support.reset=0
+ro.vendor.tui.support=false
+ro.vendor.wcn.gpschip=marlin3lite-Integ
+ro.vendor.wcn.hardware.product=marlin3_internal
+

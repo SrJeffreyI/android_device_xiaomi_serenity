@@ -1,0 +1,4 @@
+# Miscellaneous
+ro.product.device_for_attestation=mivendor_ums9230
+ro.product.manufacturer_for_attestation=Xiaomi
+
